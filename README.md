@@ -431,7 +431,7 @@ http://localhost:8000/redoc
 - Asynchronous background processing using Celery and RabbitMQ
 - API rate limiting and request throttling
 - Object storage integration with Selectel S3
-- Email notifications for package processing results
+- Email notifications for giving access to ne user
 - Real-time package status updates via WebSockets
 ---
 
