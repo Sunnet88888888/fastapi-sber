@@ -181,6 +181,7 @@ The system implements **Role-Based Access Control (RBAC)** with four permission 
 ## Super User
 
 The highest privilege level.
+
 <img width="785" height="573" alt="Снимок экрана 2026-07-15 в 09 38 28" src="https://github.com/user-attachments/assets/4dbf15d8-c6c9-4da7-9bab-47a2e1d42172" />
 
 
@@ -221,7 +222,7 @@ Permissions:
 ---
 
 ## AI Developer
-<img width="690" height="559" alt="Снимок экрана 2026-07-15 в 09 39 32" src="https://github.com/user-attachments/assets/5fae6082-0192-4670-9b06-3c0fd3a7797b" />
+
 Dedicated service role used by the AI agent.
 
 Permissions:
