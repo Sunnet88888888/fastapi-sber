@@ -1,3 +1,5 @@
+<img width="949" height="732" alt="Снимок экрана 2026-07-15 в 09 37 40" src="https://github.com/user-attachments/assets/d76dcba7-27d3-417b-ba48-afedd263c0ba" />
+<img width="933" height="744" alt="Снимок экрана 2026-07-15 в 09 37 21" src="https://github.com/user-attachments/assets/7b1d8250-97b5-4382-b2ff-11c5a10d5113" />
 # AI Agent Backend
 
 <p align="center">
@@ -180,6 +182,9 @@ The system implements **Role-Based Access Control (RBAC)** with four permission 
 ## Super User
 
 The highest privilege level.
+<img width="575" height="445" alt="Снимок экрана 2026-07-15 в 09 38 54" src="https://github.com/user-attachments/assets/5bcef85f-015e-4ee3-a96e-d80a2900e91c" />
+<img width="785" height="573" alt="Снимок экрана 2026-07-15 в 09 38 28" src="https://github.com/user-attachments/assets/4dbf15d8-c6c9-4da7-9bab-47a2e1d42172" />
+
 
 Permissions:
 
@@ -193,6 +198,9 @@ Permissions:
 
 Responsible for managing operational users.
 
+
+<img width="530" height="497" alt="Снимок экрана 2026-07-15 в 09 39 12" src="https://github.com/user-attachments/assets/e7c1f993-77be-4a7e-a39d-d7cee6116661" />
+
 Permissions:
 
 - Create Specialists
@@ -203,7 +211,7 @@ Permissions:
 ---
 
 ## Specialist
-
+<img width="692" height="562" alt="Снимок экрана 2026-07-15 в 09 39 52" src="https://github.com/user-attachments/assets/ab8834ad-7d2a-4239-9bca-6afe574405ed" />
 Responsible for uploading document packages.
 
 Permissions:
@@ -215,7 +223,7 @@ Permissions:
 ---
 
 ## AI Developer
-
+<img width="690" height="559" alt="Снимок экрана 2026-07-15 в 09 39 32" src="https://github.com/user-attachments/assets/5fae6082-0192-4670-9b06-3c0fd3a7797b" />
 Dedicated service role used by the AI agent.
 
 Permissions:
