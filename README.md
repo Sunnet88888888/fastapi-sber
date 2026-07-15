@@ -181,7 +181,6 @@ The system implements **Role-Based Access Control (RBAC)** with four permission 
 ## Super User
 
 The highest privilege level.
-<img width="575" height="445" alt="Снимок экрана 2026-07-15 в 09 38 54" src="https://github.com/user-attachments/assets/5bcef85f-015e-4ee3-a96e-d80a2900e91c" />
 <img width="785" height="573" alt="Снимок экрана 2026-07-15 в 09 38 28" src="https://github.com/user-attachments/assets/4dbf15d8-c6c9-4da7-9bab-47a2e1d42172" />
 
 
