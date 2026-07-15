@@ -225,6 +225,9 @@ Permissions:
 
 Dedicated service role used by the AI agent.
 
+<img width="638" height="583" alt="Снимок экрана 2026-07-15 в 09 43 24" src="https://github.com/user-attachments/assets/3317f109-dd84-4faf-920f-b47847c8762c" />
+
+
 Permissions:
 
 - Retrieve packages waiting for processing
