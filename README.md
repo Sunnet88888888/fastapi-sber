@@ -258,7 +258,7 @@ Otherwise:
 
 ---
 
-# 📦 Package Versioning
+# Package Versioning
 
 The system supports immutable document package versioning.
 
@@ -280,16 +280,8 @@ If `package_id` exists:
 - Increment version number
 - Save a completely new package version
 
-Example:
+<img width="1144" height="765" alt="Снимок экрана 2026-07-15 в 09 32 58" src="https://github.com/user-attachments/assets/d4e025f5-b5ee-455a-8b58-720e14bce216" />
 
-```
-Package
-│
-├── Version 1
-├── Version 2
-├── Version 3
-└── Version 4
-```
 
 No previous versions are removed.
 
@@ -321,9 +313,11 @@ This guarantees:
 
 ---
 
-# 🔄 AI Workflow
+# AI Workflow
 
 The AI service communicates through three endpoints.
+
+<img width="674" height="628" alt="Снимок экрана 2026-07-15 в 09 33 58" src="https://github.com/user-attachments/assets/9493dbe1-7f03-415a-8d45-25e7ed84666c" />
 
 ### Get next package
 
@@ -364,9 +358,13 @@ The backend updates the package status to:
 
 ---
 
-# 📚 API Documentation
+# 
+API Documentation
 
 After starting the application:
+
+
+<img width="1209" height="868" alt="Снимок экрана 2026-07-15 в 09 34 55" src="https://github.com/user-attachments/assets/3789879c-fcaa-4a74-b9f4-f75fd64bf026" />
 
 Swagger UI
 
@@ -399,6 +397,6 @@ docker compose up --build
 
 ---
 
-# 📄 License
+# License
 
-This project was developed as part of the AI Agent Backend technical assignment.
+This project was developed by Berdinov Sunnet.
