@@ -1,5 +1,15 @@
 # AI Agent Backend
 
+
+## Переменные окружения
+
+Скопируйте `.env.example` в корне репозитория в файл `.env`:
+
+```bash
+cp .env.example .env
+```
+
+
 ## Запуск через Docker Compose
 
 В корне репозитория выполните:
@@ -28,13 +38,6 @@ cd /Users/sunnet/Desktop/ai-agent-sber/ai-agent
 docker compose run --rm web python -m pytest -vv
 ```
 
-## Переменные окружения
-
-Скопируйте `.env.example` в корне репозитория в файл `.env`:
-
-```bash
-cp .env.example .env
-```
 
 Описание переменных:
 
