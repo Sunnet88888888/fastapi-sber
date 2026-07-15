@@ -100,7 +100,7 @@ Open `.env` and change the secret values.
 docker compose up --build
 ```
 
-⏳ Wait until Docker finishes building the containers.
+ Wait until Docker finishes building the containers.
 
 ---
 
@@ -211,6 +211,7 @@ Permissions:
 
 ## Specialist
 <img width="692" height="562" alt="Снимок экрана 2026-07-15 в 09 39 52" src="https://github.com/user-attachments/assets/ab8834ad-7d2a-4239-9bca-6afe574405ed" />
+
 Responsible for uploading document packages.
 
 Permissions:
