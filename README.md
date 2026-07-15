@@ -1,27 +1,47 @@
 # AI Agent Backend
 
+Infrastructure: 
+`Python3`, `FastAPI`, `SQLAlchemy`, `Alembic`, `Argon2`, `PostgreSQL`, `Docker`, `Docker-compose`
 
-## Переменные окружения
+Guide to run the project: 
 
-Скопируйте `.env.example` в корне репозитория в файл `.env`:
+1) Clone the project
 
 ```bash
+git clone https://github.com/Sunnet88888888/fastapi-sber.git
+```
+2) Change directory
+```bash
+cd fastapi-sber
+```
+3) Create .env file and copy .env.example
+
+```bash
+touch .env
 cp .env.example .env
 ```
+4) Change values of secret keys in .env file
 
+<img width="624" height="109" alt="Снимок экрана 2026-07-15 в 08 58 56" src="https://github.com/user-attachments/assets/6a8f72ec-a77c-4dde-a012-81341b135c0d" />
 
-## Запуск через Docker Compose
+SECRET_KEY is for jwt
+SUPER_USER_SECRET_KEY is your superuser key to create admins
+DATABASE_URL can be changed as you prefer.(Anyway it runs in docker)
 
-В корне репозитория выполните:
+5) Run docker-compose
 
 ```bash
 docker compose up --build
 ```
 
-После запуска сервис будет доступен на:
+WAIT A LITTLE )
 
+6) Open your localhost:
+   
 - http://localhost:8000
 - OpenAPI: http://localhost:8000/docs
+
+
 
 ## Тесты
 
@@ -38,12 +58,6 @@ cd /Users/sunnet/Desktop/ai-agent-sber/ai-agent
 docker compose run --rm web python -m pytest -vv
 ```
 
-
-Описание переменных:
-
-- `SECRET_KEY` — секретный ключ для JWT и подписи.
-- `SUPER_USER_SECRET_KEY` — ключ для создания суперпользователя.
-- `DATABASE_URL` — строка подключения SQLAlchemy к PostgreSQL.
 
 ## Структура
 
