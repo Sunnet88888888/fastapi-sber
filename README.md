@@ -15,7 +15,7 @@ Backend service for automated document verification before submission to a bank 
 
 ---
 
-# 📖 Overview
+# Overview
 
 This project implements the backend infrastructure for an AI-powered document verification system.
 
@@ -32,7 +32,7 @@ The backend is responsible for:
 
 ---
 
-#Tech Stack
+# Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -230,42 +230,8 @@ Permissions:
 
 The verification pipeline follows several sequential stages.
 
-```text
-Upload Package
-       │
-       ▼
-Save Package
-(UUID + Database)
-       │
-       ▼
-Parallel Validation
- ├── File type
- ├── File extension
- └── Size ≤ 20 MB
-       │
-       ▼
- ┌───────────────┐
- │ Validation OK │
- └──────┬────────┘
-        │
-        ▼
-check_in_progress
-        │
-        ▼
-AI Agent requests next package
-        │
-        ▼
-Downloads package documents
-        │
-        ▼
-Processes documents
-        │
-        ▼
-POST verification result
-        │
-        ▼
-approved / rejected
-```
+<img width="1079" height="769" alt="Снимок экрана 2026-07-15 в 09 31 10" src="https://github.com/user-attachments/assets/70dedcb6-1261-475b-b6d4-a2bf76d00038" />
+
 
 ---
 
