@@ -19,7 +19,6 @@ Backend service for automated document verification before submission to a bank 
 # Table of Contents
 
 - [Overview](#overview)
-- [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Running Tests](#running-tests)
@@ -406,8 +405,7 @@ The backend updates the package status to:
 
 ---
 
-# 
-API Documentation
+# API Documentation
 
 After starting the application:
 
