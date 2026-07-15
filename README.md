@@ -176,6 +176,14 @@ docker compose run --rm web python -m pytest -vv
 
 The system implements **Role-Based Access Control (RBAC)** with four permission levels.
 
+
+<img width="974" height="389" alt="Снимок экрана 2026-07-15 в 09 46 43" src="https://github.com/user-attachments/assets/3997e9fb-96ab-445c-8e58-8b98494147da" />
+
+
+
+
+
+
 ---
 
 ## Super User
