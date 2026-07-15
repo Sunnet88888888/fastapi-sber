@@ -1,5 +1,4 @@
-<img width="949" height="732" alt="Снимок экрана 2026-07-15 в 09 37 40" src="https://github.com/user-attachments/assets/d76dcba7-27d3-417b-ba48-afedd263c0ba" />
-<img width="933" height="744" alt="Снимок экрана 2026-07-15 в 09 37 21" src="https://github.com/user-attachments/assets/7b1d8250-97b5-4382-b2ff-11c5a10d5113" />
+
 # AI Agent Backend
 
 <p align="center">
