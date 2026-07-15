@@ -1,4 +1,4 @@
-# 🤖 AI Agent Backend
+# AI Agent Backend
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -21,18 +21,18 @@ This project implements the backend infrastructure for an AI-powered document ve
 
 The backend is responsible for:
 
-- 🔐 Authentication & Authorization
-- 👥 Role management
-- 📦 Document package management
-- 🗂 Package versioning
-- ✅ File validation
-- 🤖 AI integration
-- 🗄 PostgreSQL storage
-- 📄 OpenAPI documentation
+- Authentication & Authorization
+- Role management
+- Document package management
+- Package versioning
+- File validation
+- AI integration endpoints
+- PostgreSQL storage
+- OpenAPI documentation
 
 ---
 
-# ⚙️ Tech Stack
+#Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -48,7 +48,7 @@ The backend is responsible for:
 
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
 ## 1. Clone repository
 
@@ -125,7 +125,7 @@ http://localhost:8000/redoc
 
 ---
 
-# 🧪 Running Tests
+# Running Tests
 
 ### Locally
 
@@ -143,40 +143,41 @@ docker compose run --rm web python -m pytest -vv
 
 ---
 
-# 📁 Project Structure
-
-```
+# Project Structure
+```text
 .
 ├── ai-agent/
 │   ├── app/
-│   │   ├── api/                # REST API endpoints
-│   │   ├── application/        # Business logic
-│   │   ├── core/               # Configurations, JWT, security
-│   │   ├── db/                 # Database layer
-│   │   ├── infrastructure/     # Repositories & services
+│   │   ├── auth/               # Authentication & authorization
 │   │   ├── models/             # SQLAlchemy models
-│   │   ├── schemas/            # Pydantic schemas
-│   │   └── main.py             # FastAPI entrypoint
+│   │   ├── repositories/       # Database access layer
+│   │   ├── routers/            # FastAPI API endpoints
+│   │   ├── services/           # Business logic
+│   │   ├── config.py           # Application configuration
+│   │   ├── database.py         # Database connection
+│   │   ├── db_depends.py       # Database dependencies
+│   │   ├── schemas.py          # Pydantic schemas
+│   │   └── main.py             # FastAPI application entrypoint
 │   │
 │   ├── migrations/             # Alembic migrations
 │   ├── tests/                  # Unit & integration tests
-│   ├── Dockerfile
-│   └── requirements.txt
+│   ├── alembic.ini             # Alembic configuration
+│   └── requirements.txt        # Project dependencies
 │
-├── docker-compose.yml
-├── .env.example
-└── README.md
+├── docker-compose.yml          # Docker services configuration
+├── .env.example                # Environment variables example
+└── README.md                   # Project documentation
 ```
 
 ---
 
-# 🔐 User Roles
+# User Roles
 
 The system implements **Role-Based Access Control (RBAC)** with four permission levels.
 
 ---
 
-## 👑 Super User
+## Super User
 
 The highest privilege level.
 
@@ -188,7 +189,7 @@ Permissions:
 
 ---
 
-## 🛡 Administrator
+## Administrator
 
 Responsible for managing operational users.
 
@@ -201,7 +202,7 @@ Permissions:
 
 ---
 
-## 📄 Specialist
+## Specialist
 
 Responsible for uploading document packages.
 
@@ -213,7 +214,7 @@ Permissions:
 
 ---
 
-## 🤖 AI Developer
+## AI Developer
 
 Dedicated service role used by the AI agent.
 
@@ -225,7 +226,7 @@ Permissions:
 
 ---
 
-# 🧠 Business Logic
+# Business Logic
 
 The verification pipeline follows several sequential stages.
 
