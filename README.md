@@ -426,23 +426,15 @@ http://localhost:8000/redoc
 
 ---
 
-# 🐳 Docker
+# Future Improvements
 
-The project is fully containerized.
-
-Services include:
-
-- FastAPI
-- PostgreSQL
-
-Start everything with:
-
-```bash
-docker compose up --build
-```
-
+- Asynchronous background processing using Celery and RabbitMQ
+- API rate limiting and request throttling
+- Object storage integration with Selectel S3
+- Email notifications for package processing results
+- Real-time package status updates via WebSockets
 ---
 
-# License
+# Author
 
 This project was developed by Berdinov Sunnet.
