@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+myenv/
+*.venv
+venv/
+ENV/
+.env
+
+# Local environment files
+*.env
+.env.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+
+# Database files
+*.sqlite3
+*.db
+*.sqlite
+
+# Tests and build artifacts
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# Storage and uploads
+storage/
+**/storage/
+
+# Ignore nested git repository metadata if the project is embedded in another repo
+ai-agent/.git
+
+# Ignore docker context files not needed in the repository itself
+# (if you prefer to keep root compose and Dockerfile, do not ignore root files)
